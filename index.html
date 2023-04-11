@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마녀공장 모바일</title>
+    <title>manyo</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <header>
         <div class="inner">
-            <h1><a href="#"><img src="img/Logo.png" alt=""/></a></h1>
+            <h1><a href="#"><img src="img/Logo.png" alt="" /></a></h1>
             <div class="menu_open">
                 <img src="img/menu.png" alt="">
             </div><!-- menu_open end -->
@@ -63,10 +65,10 @@
                 </div>
             </nav>
         </div><!-- inner end -->
-        
+
     </header>
     <main>
-        <section class="main_visual"> 
+        <section class="main_visual">
             <img src="img/mainVisual.png" alt="">
             <div>
                 <h2>히더 진정 라인 런치 기념
@@ -88,9 +90,9 @@
 
                 <div class="list">
                     <div class="item">
-                        <figure><img src="img/image 1.jpg" alt=""/></figure>
+                        <figure><img src="img/image1.jpg" alt="" /></figure>
                         <div class="text">
-                            <h4>갈라토미 나이아신<br/> 에센스 50ml</h4>
+                            <h4>갈라토미 나이아신<br /> 에센스 50ml</h4>
                             <div>
                                 <p>29,900원</p>
                                 <ul>
@@ -102,7 +104,7 @@
                     </div><!-- item end -->
 
                     <div class="item">
-                        <figure><img src="img/image 1-1.jpg" alt=""/></figure>
+                        <figure><img src="img/image1-1.jpg" alt="" /></figure>
                         <div class="text">
                             <h4>퓨어 클렌징 오일 200ml</h4>
                             <div>
@@ -118,7 +120,7 @@
 
                 <div class="list off">
                     <div class="item">
-                        <figure><img src="img/image 1-1.jpg" alt=""/></figure>
+                        <figure><img src="img/image1-1.jpg" alt="" /></figure>
                         <div class="text">
                             <h4>퓨어 클렌징 오일 200ml</h4>
                             <div>
@@ -132,7 +134,7 @@
                     </div><!-- item end -->
 
                     <div class="item">
-                        <figure><img src="img/image 2-1.jpg" alt=""/></figure>
+                        <figure><img src="img/image2-1.jpg" alt="" /></figure>
                         <div class="text">
                             <h4>퓨어&딥 클렌징폼</h4>
                             <div>
@@ -166,7 +168,7 @@
                     </figure>
                     <div>
                         <h4>마녀공장 집들이에 초대합니다!</h4>
-                        <p>어서오세요 공식몰이 새 단장했어요<br/>
+                        <p>어서오세요 공식몰이 새 단장했어요<br />
                             할인 쿠폰&선착순 1,000명 사은품 증정</p>
                         <span>2023.04.04 am 10:00~04.30 pm 11:59</span>
                     </div>
@@ -175,7 +177,7 @@
         </section><!-- event end -->
     </main>
     <footer>
-        <p>COPYRIGHT © MANYOFACTORY<br/>
+        <p>COPYRIGHT © MANYOFACTORY<br />
             ALL RIGHTS RESERVED.</p>
     </footer>
 
@@ -193,36 +195,37 @@
         let button = box.getElementsByClassName('button');
 
         menu.style.display = 'none'
-        opens.onclick = function(){
+        opens.onclick = function () {
             menu.style.display = 'block'
         }
 
-        close.onclick = function(){
+        close.onclick = function () {
             menu.style.display = 'none'
         }
 
-        line.onclick = function(){
+        line.onclick = function () {
             on.classList.toggle('off');
         }
 
-        bestBtn[0].onclick = function(){
+        bestBtn[0].onclick = function () {
             list[1].classList.add('off')
             list[0].classList.remove('off')
         }
 
-        bestBtn[1].onclick = function(){
+        bestBtn[1].onclick = function () {
             list[0].classList.add('off')
             list[1].classList.remove('off')
         }
 
-        button[1].onclick = function(){
+        button[1].onclick = function () {
             boximg.src = 'img/event2.jpg'
         }
-        button[0].onclick = function(){
+        button[0].onclick = function () {
             boximg.src = 'img/event1.jpg'
         }
-        
+
 
     </script>
 </body>
+
 </html>
